@@ -9,4 +9,4 @@
 - [ ] Delete todo
 - [ ] Firebase as backend
 - [ ] Auth
-- [ ] CI / CD
+- [x] CI / CD
