@@ -17,4 +17,4 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 
 ## Progress Project
 
-Current progress available in [Todo.md](./TODO.md)
+Current progress available in [TODO.md](./TODO.md)
