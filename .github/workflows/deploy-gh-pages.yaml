@@ -27,11 +27,11 @@ jobs:
         uses: crazy-max/ghaction-github-status@v3
         with:
           pages_threshold: major_outage
-      - name: Deploy to Github Pages
+      - name: Deploy to GitHub Pages
         if: success()
-        uses: crazy-max/ghaction-github-pages/v3
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: gh-pages
           build_dir: public
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
