@@ -17,7 +17,7 @@ const routes: RouteRecordRaw[] = [
 
 const router = createRouter({
   routes,
-  history: createWebHistory(),
+  history: createWebHistory('/simple-todo/'),
 })
 
 export default router
