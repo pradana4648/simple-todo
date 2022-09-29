@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center text-center">
+  <div class="flex flex-col justify-center items-center text-center h-screen">
     <div class="text-xl font-bold">Selamat datang di Web sederhana ini</div>
     <div class="text-sm my-5">
       <div>Web ini bertema tentang membuat daftar tugas atau Todo List</div>

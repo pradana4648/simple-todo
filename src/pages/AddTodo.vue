@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-stretch space-y-3">
+  <div class="flex flex-col justify-center items-stretch space-y-3 h-screen">
     <div class="text-center text-xl font-semibold underline underline-offset-2">
       Daftar Tugas
     </div>
@@ -32,15 +32,8 @@
           v-model="inputValues.createdAt"
           type="datetime-local"
           placeholder="Masukkan tanggal akhir"
-          id="createdAt"
-          name="createdAt"
           class="bg-gray-50 p-2 border border-gray-200 rounded w-full"
         />
-      </div>
-
-      <div>
-        <br />
-        <hr class="border border-t-0 w-4 border-black" />
       </div>
 
       <div>
@@ -49,21 +42,19 @@
           v-model="inputValues.endAt"
           type="datetime-local"
           placeholder="Masukkan tanggal akhir"
-          id="endAt"
-          name="endAt"
           class="bg-gray-50 p-2 border border-gray-200 rounded w-full"
         />
       </div>
     </div>
     <button
       v-on:click="inputSubmitted"
-      class="bg-blue-300 p-2 active:translate-y-1"
+      class="bg-blue-500 p-2 active:translate-y-1 text-white"
     >
       Tambah
     </button>
     <button
       v-on:click="goToTodoList"
-      class="p-2 border-red-500 border-2 hover:bg-red-500 hover:text-white active:translate-y-1"
+      class="p-2 bg-green-500 text-white active:translate-y-1"
     >
       Menuju daftar tugasmu
     </button>
