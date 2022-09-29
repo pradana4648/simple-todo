@@ -22,4 +22,5 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 Current progress available in [TODO.md](./TODO.md)
 
 ## Link
-https://pradana4648.github.io/simple-todo/buat-daftar-tugas
+https://pradana4648.github.io/simple-todo
+
